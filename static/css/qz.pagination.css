@@ -1,0 +1,73 @@
+
+/* CSS Document */
+
+div.qzPagination {
+	text-align: center;
+	font-size: 14px;
+}
+
+div.qzPagination .total {
+    float:right;
+    color:#999999;
+    padding:0;
+}
+
+div.qzPagination span {
+	line-height:30px;
+	*line-height:31px;	/* ie6 ie7 */
+	padding: 7px 12px;
+}
+
+div.qzPagination a {
+	border: #ddd 1px solid;
+	padding: 7px 12px;
+	margin-right: 5px;
+	color: #00508f;
+	text-decoration: none;
+	line-height:30px;
+	*line-height:31px;	/* ie6 ie7 */
+}
+
+div.qzPagination a:hover {
+	border: #ccc 1px solid;
+	color: #fff;
+	background: #00508f;
+	text-decoration: none;
+}
+
+div.qzPagination a:active {
+	border: #ccc 1px solid; 
+	color: #fff;
+	background: #00508f;
+	text-decoration: none;
+}
+
+div.qzPagination span.current {
+	border: #00508f 1px solid;
+	margin-right: 5px;
+	font-weight: bold;
+	color: #ffffff;
+	background: #00508f; 
+}
+div.qzPagination a.current {
+	border: #00508f 1px solid;
+	margin-right: 5px;
+	font-weight: bold;
+	color: #ffffff;
+	background: #00508f; 
+}
+div.qzPagination span.disabled {
+	border: #f3f3f3 1px solid;	
+	margin-right: 5px;
+	color: #cccccc;
+}
+div.qzPagination span.prePage
+ {
+}
+div.qzPagination a.prePage
+ {
+}
+div.qzPagination a.nextPage  {
+}
+div.qzPagination span.nextPage  {
+}

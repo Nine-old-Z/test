@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head><title>
+	Beijing Juzhili Medical Technology Co., Ltd
+</title><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="author" content="lichen,1000zhu.com"><link rel="icon" href="http://www.snssurgical.com.cn/favicon.ico" mce_href="/dir/favicon.ico" type="image/x-icon"><link rel="stylesheet" href="static/css/base.css"><link rel="stylesheet" href="static/css/common1.css"><link rel="stylesheet" href="static/css/style1.css">
+    <script type="text/javascript" src="static/js/jquery-1.11.3.min.js"></script>
+<script src="static/js/app.js"></script>
+    <!--[if lt IE 9]>
+    <script src="/en/js/ie/html5shiv.js"></script>
+    <script src="/en/js/ie/respond.min.js"></script>
+<![endif]-->
+
+    <script src="static/js/ajax.js"></script>
+<meta name="keywords"><meta name="description"></head>
+<body>
+<!--Mobile header-->
+<div class="mHeader">
+    <a href="index.html" class="mLogo"><img src="static/picture/0027399935.png" id="ctl00_Logo2" alt="logo"></a>
+    <div class="mOpenBtn"><i></i><i></i><i></i></div>
+    <a href="javascript:;" class="headr_ser topSerBtn"></a>
+	<a href="index.html" class="header_lan" style="line-height: 56px;position: absolute;right: 65px;top: 0;">CN</a>
+</div>
+<div class="mMenuLayBg"></div>
+<div class="mCloseBtn"></div>
+<div id="ctl00_MainMenu" class="mMmenuLay"><dl><dt><a class='mMenu_a1' href='index1.html' target='_self'>Home</a><i class='mToggle'></i></dt></dl><dl><dt><a class='mMenu_a1' href='aboutus1.html' target='_self'>About</a><i class='mToggle'></i></dt></dl><dl><dt><a class='mMenu_a1' href='products1.html' target='_self'>Products</a><i class='mToggle'></i></dt></dl><dl><dt><a class='mMenu_a1' href='index4.html' target='_self'>News</a><i class='mToggle'></i></dt></dl><dl><dt><a class='mMenu_a1' href='join1.html' target='_self'>Careers</a><i class='mToggle'></i></dt></dl><dl><dt><a class='mMenu_a1' href='' target='_self'>Contact </a><i class='mToggle'></i></dt></dl></div>
+    
+<!--PC header-->
+<div class="header wow fadeIn" data-wow-delay="0.0s">
+	<div class="container">
+        <a href="index1.html" class="logo"><img src="static/picture/0027399935.png" id="ctl00_Logo"></a>
+        <ul id="ctl00_MainMenu2" class="nav"><li><a id='nav11' class='nav_a' href='index1.html' target='_self'>Home</a></li><li><a id='nav12' class='nav_a' href='aboutus1.html' target='_self'>About</a></li><li><a id='nav13' class='nav_a' href='products1.html' target='_self'>Products</a></li><li><a id='nav14' class='nav_a' href='index4.html' target='_self'>News</a></li><li><a id='nav15' class='nav_a' href='join1.html' target='_self'>Careers</a></li><li><a id='nav16' class='nav_a' href='' target='_self'>Contact </a></li></ul>
+        <div class="headRx">
+            <a href="index.html" class="header_lan">CN</a>
+            <a href="javascript:;" class="headr_ser topSerBtn"></a>
+        </div>
+    </div>
+</div>
+<div class="topEmpty"></div>
+    <!--搜索弹出层-->
+<div class="serBg dsNone"></div>
+<div class="serLayer dsNone">
+    <a href="javascript:;" class="serClose"></a>
+    <div class="serIntBox">
+        <input id="keys2" maxlength="50" type="text">
+    </div>
+    <ul class="serul clearfix">
+        <li>Please input key words</li>
+    </ul>
+</div>
+
+    
+
+    
+<div class="container">
+    
+<script type="text/javascript">    
+    $(document).ready(function () {
+        $("#nav16").addClass("on");
+    });
+ </script>
+	<div class="m2lxCon">
+        <div class="hmc5Tbox wow fadeInUp" data-wow-delay="0.1s">
+            <strong>Contact Us</strong>
+                
+        </div>
+        <div class="hmc5fm wow fadeInUp" data-wow-delay="0.2s"> 
+            <ul class="hmc5ul">
+                <li>
+                    <div class="hmc5_int">
+                        <input type="text" id="txtName" maxlength="50">
+                        <p>Your name*</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="hmc5_int">
+                        <input name="" type="text" id="txtEmail" maxlength="50">
+                        <p>Email address*</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="hmc5_int">
+                        <input name="" type="text" id="txtCompany" maxlength="50">
+                        <p>Company*</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="hmc5_int">
+                        <input name="" type="text" id="txtNation" maxlength="50">
+                        <p>Country/Region*</p>
+                    </div>
+                </li>
+                <li class="hmc5Pos1">
+                    <textarea placeholder="Your words to us..." name="" cols="" rows="" id="txtContent" maxlength="500"></textarea>
+                </li>
+                <li class="hmc5Cks">
+                    
+                    &nbsp;
+                </li>
+                <li class="hmc5Submit">
+                    <a href="javascript:;" class="hmPub_m" onclick="ajax_addMessage1en($('#txtName').val(),$('#txtEmail').val(),$('#txtCompany').val(),$('#txtNation').val(),$('#txtContent').val())">Submit</a>
+                </li>
+            </ul>
+        </div>
+        <div class="m2lxMix clearfix wow fadeInUp" data-wow-delay="0.1s">
+            <div class="m2lxMlx">
+            	<strong>Beijing juzhili Medical Technology Co., Ltd</strong>
+                <p>010-00000000<br>XXX@163.com<br>117 / F, building 1, yard 66, Jiaoda East Road, Haidian District, Beijing</p>
+            </div>
+            <div class="footRx">
+                <img src="static/picture/1853011593.png" width="137" height="137">
+                <p>Official wechat</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="m2lxMap" id="m2lxMap"></div>
+
+<script type="text/javascript" src="static/js/maps.js"></script> 
+<script language="javascript">
+$(".hmc5_int input").blur(function(){
+	if($(this).val()!=""){
+		$(this).next("p").addClass("up");
+		}else{
+			$(this).next("p").removeClass("up");
+			}
+	});
+
+var title,addr,mapInfo;
+mapInfo = '<a target="blank" href="https://j.map.baidu.com/66/ao-" class="mapLink"></a>';
+
+var map = new AMap.Map('m2lxMap', {
+	    	resizeEnable: true,
+	    	// dragEnable: false,
+	    	zoom: 13,
+	        center: [116.327669,39.975407],
+	    	mapStyle: 'amap://styles/cbadb4872536ad2a77d5660489a7b46d'
+		});
+		
+		 //显示缩放加减号
+		AMap.plugin([
+		  'AMap.ToolBar',
+		], function(){
+		  // 在图面添加工具条控件，工具条控件集成了缩放、平移、定位等功能按钮在内的组合控件
+		  map.addControl(new AMap.ToolBar({
+			// 简易缩放模式，默认为 false
+			liteStyle: true
+		  }));
+		});
+		
+		var clickEventHandler = map.on('click',function(){
+			map.setStatus({scrollWheel:false});  // 是否开始鼠标滚动缩放
+		});
+		 
+		//鼠标移入移出监听   可自定义移入移出后开启或关闭鼠标滚动缩放
+		//监听地图的mouseover事件，鼠标移入地图区域，鼠标滚轮缩小或放大地图功能取消或开启
+		var mouseOutEcentListener = map.on('mouseover',function(){
+			map.setStatus({scrollWheel:false});  // 是否开始鼠标滚动缩放
+		});
+		
+		var icon = new AMap.Icon({
+			image: 'image/mapIcon.png',
+			size: new AMap.Size(30, 43)
+		});
+		var marker = new AMap.Marker({
+			icon: icon,
+			icon: icon,
+			offset: new AMap.Pixel(-14,-39),
+		    position: map.getCenter(),
+	        draggable: false,
+	        cursor: 'move'
+		});
+        marker.setMap(map);
+		marker.on('click', function(){
+			infoWindow.open(map, map.getCenter());
+		});
+
+		
+
+</script>
+  
+
+<div class="footer_line"></div>
+    <section id="footer">
+        
+<div class="footerTop">
+    <div class="container">
+        <div class="footLogo"><img src="static/picture/0027399935.png" id="ctl00_FooterLogo"></div>
+        <div class="footConx clearfix">
+            <div class="footLx">
+                <div id="ctl00_MainMenu3" class="foot_nav"><a href='index1.html' target='_self'>Home</a><a href='aboutus1.html' target='_self'>About</a><a href='products1.html' target='_self'>Products</a><a href='index4.html' target='_self'>News</a><a href='join1.html' target='_self'>Careers</a><a href='' target='_self'>Contact </a></div>
+                <div class="foot_share bdsharebuttonbox">
+                    
+                    <a href="javascript:;" class="footSha footSha1"><span><img src="static/picture/1853011593.png" width="137" height="137"></span></a>
+                    <a href="javascript:;" target="_blank" style="" class="footSha footSha2"></a>
+                    <a href="javascript:;" target="_blank" style="" class="footSha footSha3"></a>
+                    <a href="javascript:;" style="" class="footSha footSha4"><span><img src="static/picture/1853011593.png" width="137" height="137"></span></a>
+                    <a href="javascript:;" style="" class="footSha footSha5"><span><img src="static/picture/1853011593.png" width="137" height="137"></span></a>
+                </div>
+            </div>
+            <div class="footMx">
+                <strong>Beijing juzhili Medical Technology Co., Ltd</strong>
+                <p>010-00000000<br>XXX@163.com<br>117 / F, building 1, yard 66, Jiaoda East Road, Haidian District, Beijing</p>
+            </div>
+            <div class="footRx">
+                <img src="static/picture/1853011593.png" width="137" height="137">
+                <p>Official wechat</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footerInfo">
+	<div class="container">
+        <span class="fl">Copyright © 2022, All rights reserved. <a href="javascript:;" target="_blank">京ICP备20220000000号</a></span>
+        <span class="fr"><a href="javascript:;" target="_blank">Design By Mengxin</a></span>
+    </div>
+</div>
+    </section>
+
+<a href="javascript:;" class="backTop"></a>
+
+<script src="static/js/app.js"></script>
+<script src="static/js/common.js"></script>
+<script type="text/javascript">
+function showValue(ids) {
+    if ($('#' + ids).val() == "" || $('#' + ids).val() == "Please input key words") { alert("Please input key words"); return; }
+    window.location.href = "/en/search/keys-" + $('#' + ids).val() + "/";
+    }
+    $('#keys2').keydown(function (e) {
+        if (e.keyCode == 13) {
+            showValue('keys2');
+        }
+    });
+    $('#keys').keydown(function (e) {
+        if (e.keyCode == 13) {
+            showValue('keys');
+        }
+    });
+</script>   
+
+
+
+</body>
+</html>
